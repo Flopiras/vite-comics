@@ -15,8 +15,8 @@ export default {
             <h1> -- Content goes here -- </h1>
         </div>
         <!-- navbar -->
-        <MainNavbar />
     </main>
+    <MainNavbar />
 </template>
 
 <style scoped>
