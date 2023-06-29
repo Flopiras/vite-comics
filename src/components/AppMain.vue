@@ -1,5 +1,7 @@
 <script>
+import MainNavbar from './MainNavbar.vue';
 export default {
+    components: { MainNavbar },
     data() {
         return {
         }
@@ -12,15 +14,12 @@ export default {
         <div class="container">
             <h1> -- Content goes here -- </h1>
         </div>
-        <nav>
-            <ul>
-                <li></li>
-            </ul>
-        </nav>
+        <!-- navbar -->
+        <MainNavbar />
     </main>
 </template>
 
-<style>
+<style scoped>
 main {
     color: white;
     background-color: black;
