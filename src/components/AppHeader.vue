@@ -86,6 +86,10 @@ export default {
     align-items: center;
 }
 
+figure {
+    margin: 1rem 0;
+}
+
 ul {
     display: flex;
 
