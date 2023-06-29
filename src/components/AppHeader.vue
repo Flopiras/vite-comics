@@ -80,7 +80,7 @@ export default {
 </template>
 
 <style lang="scss"  scoped>
-@use '../assets/sass/utils' as *;
+@use '../assets/sass/_utils' as *;
 
 .container {
     display: flex;
@@ -109,9 +109,12 @@ ul {
         text-transform: uppercase;
         font-weight: 600;
 
-        .active {
-            color: $blue;
-        }
     }
+
+}
+
+li.active a {
+    color: $blue;
+    border-bottom: 2px solid $blue;
 }
 </style>
