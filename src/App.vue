@@ -1,5 +1,6 @@
 <script>
 export default {
+  name: 'dc',
   data() {
     return {
       links: [
