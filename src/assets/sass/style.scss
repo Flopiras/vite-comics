@@ -1,0 +1,20 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* generics */
+  body {
+    font-family: open-sans;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto
+  }
+  
+  ul {
+    list-style-type: none;
+  }
