@@ -58,18 +58,17 @@
                     </li>
                 </ul>
             </nav>
-            <figure>
-                <img id="logo" src="../assets/img/dc-logo-bg.png" alt="logo">
-            </figure>
+
         </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
 .top-footer {
-    background-image: url(../assets/img/footer-bg.jpg);
+    background-image: url(../assets/img/dc-logo-bg.png), url(../assets/img/footer-bg.jpg);
+    background-position: 71% 51%, left bottom;
+    background-size: 36%, cover;
     background-repeat: no-repeat;
-    background-size: cover;
     padding: 3rem 0;
 }
 
