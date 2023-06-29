@@ -73,4 +73,21 @@ export default {
   <AppFooter />
 </template>
 
-<style></style>
+<style>
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* generics */
+.container {
+  max-width: 1200px;
+  margin: 0 auto
+}
+
+ul {
+  list-style-type: none;
+}
+</style>

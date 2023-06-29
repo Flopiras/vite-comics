@@ -55,10 +55,45 @@ export default {
                 },
             ],
         }
+    },
+    methods: {
     }
 }
 </script>
 
-<template></template>
+<template>
+    <header>
+        <div class="container">
 
-<style></style>
+            <figure>
+                <img src="../assets/img/dc-logo.png" alt="DC logo">
+            </figure>
+            <nav>
+                <ul>
+                    <li v-for="link in links" :key="link.text">
+                        <a :href="link.url">{{ link.text }}</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</template>
+
+<style lang="scss"  scoped>
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+
+    a {
+        text-decoration: none;
+        color: #4C4646;
+        padding: 2rem 1rem;
+        text-transform: uppercase;
+    }
+}
+</style>
