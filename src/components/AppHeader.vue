@@ -70,7 +70,7 @@ export default {
             </figure>
             <nav>
                 <ul>
-                    <li v-for="link in links" :key="link.text">
+                    <li v-for="link in links" :key="link.text" :class="{ active: link.current }">
                         <a :href="link.url">{{ link.text }}</a>
                     </li>
                 </ul>
@@ -80,14 +80,23 @@ export default {
 </template>
 
 <style lang="scss"  scoped>
+@use '../assets/sass/utils' as *;
+
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: monospace;
+    font-size: 1rem;
 }
 
 figure {
-    margin: 1rem 0;
+    margin: 1.5rem 0;
+}
+
+img {
+    display: block;
+    max-width: 80px;
 }
 
 ul {
@@ -98,6 +107,11 @@ ul {
         color: #4C4646;
         padding: 2rem 1rem;
         text-transform: uppercase;
+        font-weight: 600;
+
+        .active {
+            color: $blue;
+        }
     }
 }
 </style>
