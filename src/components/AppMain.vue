@@ -7,6 +7,23 @@ export default {
 }
 </script>
 
-<template></template>
+<template>
+    <main>
+        <div class="container">
+            <h1> -- Content goes here -- </h1>
+        </div>
+        <nav>
+            <ul>
+                <li></li>
+            </ul>
+        </nav>
+    </main>
+</template>
 
-<style></style>
+<style>
+main {
+    color: white;
+    background-color: black;
+    padding: 3rem 0;
+}
+</style>
