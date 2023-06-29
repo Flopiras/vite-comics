@@ -72,3 +72,5 @@ export default {
   <!-- footer -->
   <AppFooter />
 </template>
+
+<style></style>
