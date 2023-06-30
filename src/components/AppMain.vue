@@ -55,5 +55,6 @@ main {
     margin-top: 1rem;
     background-color: $blue;
     padding: 0.5rem 2rem;
+    cursor: pointer;
 }
 </style>
