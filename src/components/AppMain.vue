@@ -18,13 +18,17 @@ export default {
         <section id="current-series">
             <div class="container cards-container">
                 <ComicCard v-for="thumb in thumbs" :thumb="thumb" />
+
+                <div class="button">LOAD MORE</div>
             </div>
         </section>
         <MainNavbar />
     </main>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+@use '../assets/sass/_utils' as *;
+
 main {
     color: white;
     background-color: black;
@@ -42,7 +46,14 @@ main {
 
 .cards-container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 1rem 0 1rem 0;
+}
+
+.button {
+    margin-top: 1rem;
+    background-color: $blue;
+    padding: 0.5rem 2rem;
 }
 </style>
