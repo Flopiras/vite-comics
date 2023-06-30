@@ -15,32 +15,39 @@ export default {
                     <li>
                         <figure>
                             <img src="../assets/img/buy-comics-digital-comics.png" alt="Digital Comics">
+                            <figcaption><a href="#">digital comics</a></figcaption>
                         </figure>
-                        <a href="#">digital comics</a>
+
                     </li>
                     <li>
                         <figure>
                             <img src="../assets/img/buy-comics-merchandise.png" alt="Merchandise">
+                            <figcaption><a href="#">dc merchandise</a></figcaption>
                         </figure>
-                        <a href="#">dc merchandise</a>
+
                     </li>
                     <li>
                         <figure>
                             <img src="../assets/img/buy-comics-subscriptions.png" alt="Subscriptions">
+                            <figcaption><a href="#">subscriptions</a></figcaption>
                         </figure>
-                        <a href="#">subscriptions</a>
+
                     </li>
                     <li>
                         <figure>
                             <img src="../assets/img/buy-comics-shop-locator.png" alt="Shop Locator">
+                            <figcaption><a href="#">comic shop locator</a></figcaption>
                         </figure>
-                        <a href="#">comic shop locator</a>
+
                     </li>
                     <li>
                         <figure>
                             <img src="../assets/img/buy-dc-power-visa.svg" alt="Power Visa">
+                            <figcaption>
+                                <a href="#">dc power vvisa</a>
+                            </figcaption>
                         </figure>
-                        <a href="#">dc power vvisa</a>
+
                     </li>
                 </ul>
             </nav>
@@ -76,8 +83,17 @@ li {
 
 img {
     display: block;
-    max-width: 60px;
-    max-height: 70px;
-    margin-right: 1rem;
+    width: 55px;
+    height: 60px;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    figcaption {
+        margin-left: 1rem;
+    }
 }
 </style>
