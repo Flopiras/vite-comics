@@ -43,5 +43,6 @@ main {
 .cards-container {
     display: flex;
     flex-wrap: wrap;
+    padding: 1rem 0 1rem 0;
 }
 </style>
