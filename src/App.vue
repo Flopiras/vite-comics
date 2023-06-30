@@ -154,7 +154,7 @@ export default {
   <!-- header -->
   <AppHeader />
   <!--main  -->
-  <AppMain />
+  <AppMain :thumbs="thumbs" />
   <!-- footer -->
   <AppFooter />
 </template>
