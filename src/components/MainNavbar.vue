@@ -63,7 +63,7 @@ ul {
 li {
     display: flex;
     align-items: center;
-    margin: 0 2rem;
+    margin: 0 1rem;
 
     a {
         cursor: pointer;
