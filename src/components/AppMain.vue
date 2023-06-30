@@ -11,18 +11,23 @@ export default {
 
 <template>
     <main>
-        <div class="container">
-            <h1> -- Content goes here -- </h1>
-        </div>
+
+        <div id="jumbotron"></div>
+
         <!-- navbar -->
+        <MainNavbar />
     </main>
-    <MainNavbar />
 </template>
 
 <style scoped>
 main {
     color: white;
     background-color: black;
-    padding: 3rem 0;
+}
+
+#jumbotron {
+    background-image: url(../assets/img/jumbotron.jpg);
+    background-size: cover;
+    height: 350px;
 }
 </style>
